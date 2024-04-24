@@ -1,0 +1,14 @@
+{
+	"private": true,
+	"version": "1.0.0",
+	"name": "@types/tobii",
+	"license": "CC0-1.0",
+	"scripts": {
+		"check": "tsc --noEmit"
+	},
+	"main": "./tobii.d.ts",
+	"types": "./tobii.d.ts",
+	"devDependencies": {
+		"typescript": ">=5.4.2"
+	}
+}
