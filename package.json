@@ -1,13 +1,23 @@
 {
-	"version": "1.0.1",
-	"name": "@types/tobii",
+	"version": "1.0.2",
+	"name": "types-tobii",
+	"description": "TypeScript definitions for Tobii",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thinknathan/types-tobii.git"
+	},
+	"files": [
+		"tobii.d.ts"
+	],
 	"license": "CC0-1.0",
 	"scripts": {
-		"check": "tsc --noEmit"
+		"check": "tsc --noEmit",
+		"prettier": "prettier \"./**/*.{yml,json,mjs,md,css}\" --write"
 	},
 	"main": "./tobii.d.ts",
 	"types": "./tobii.d.ts",
 	"devDependencies": {
+		"prettier": "^3.2.5",
 		"typescript": ">=5.4.2"
 	}
 }
